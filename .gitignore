@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# production build files
+/build
+/dist
+
+# environment variables
+/.env
+
+# OS-specific files
+.DS_Store
+
+# Editor-specific files
+*.swp
+*.swo
+*.log
+.vscode/*
+.idea/*
+*.iml
+
+# Cache files
+.cache
