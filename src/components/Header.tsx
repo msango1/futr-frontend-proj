@@ -19,7 +19,6 @@ function Header() {
           <Grid item xs={3} key={text}>
             <Button
               fullWidth
-              onClick={() => console.log(`${text} clicked`)}
               sx={{
                 color: isActive ? 'primary.main' : 'text.primary',
                 borderBottom: isActive ? '2px solid' : '1px solid',
