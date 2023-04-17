@@ -3,7 +3,7 @@ import { Formik, Form, Field } from 'formik';
 import { useQuery } from 'react-query';
 import axios from 'axios';
 import SwitchItem from './SwitchItem';
-import { validationSchema } from './validationSchema';
+import { validationSchema } from '../utils/validationSchema';
 
 function Actions({ onFormSubmit }: { onFormSubmit: (formData: { conversationDownloadsEnabled: boolean; conversationClearEnabled: boolean; showLiveChatIcon: boolean; collectUserInfoEnabled: boolean; emailEnabled: boolean; email: string; emailFrequency: string }) => void }) {
   
